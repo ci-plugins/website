@@ -1,8 +1,8 @@
-baseURL = "/"
+baseURL = "https://ci-plugins.github.io/website"
 title = "Goldydocs"
 publishDir = "docs"
 enableRobotsTXT = true
-
+canonifyURLs = true
 # Hugo allows theme composition (and inheritance). The precedence is from left to right.
 theme = ["docsy"]
 
