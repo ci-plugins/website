@@ -1,5 +1,5 @@
-baseURL = "https://ci-plugins.github.io/website"
-title = "Goldydocs"
+baseURL = "https://ci-plugins.github.io/website/"
+title = "BKCI"
 publishDir = "docs"
 enableRobotsTXT = true
 canonifyURLs = true
@@ -53,18 +53,19 @@ id = "UA-00000000-0"
 
 [languages]
 [languages.en]
-title = "Goldydocs"
-description = "A Docsy example site"
+title = "BKCI"
+description = "a free & open source CI server"
 languageName ="English"
-# Weight used for sorting.
 weight = 1
-[languages.no]
-title = "Goldydocs"
-description = "Docsy er operativsystem for skyen"
-languageName ="Norsk"
-contentDir = "content/no"
-time_format_default = "02.01.2006"
-time_format_blog = "02.01.2006"
+languagedirection = "ltr"
+
+[languages.zh]
+title = "BKCI"
+description = "bk-ci是一个免费并开源的CI服务"
+languageName = "中文 Chinese"
+weight = 2
+contentDir = "content/zh"
+languagedirection = "ltr"
 
 [markup]
   [markup.goldmark]
