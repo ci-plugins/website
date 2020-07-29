@@ -2,14 +2,14 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	<sitemap>
-	   	<loc>https://ci-plugins.github.io/website/en/sitemap.xml</loc>
+	   	<loc>https://bkci.net/en/sitemap.xml</loc>
 		
 	   	<lastmod>2020-07-27T21:22:45+08:00</lastmod>
 		
 	</sitemap>
 	
 	<sitemap>
-	   	<loc>https://ci-plugins.github.io/website/zh/sitemap.xml</loc>
+	   	<loc>https://bkci.net/zh/sitemap.xml</loc>
 		
 	   	<lastmod>2020-07-27T23:15:13+08:00</lastmod>
 		
