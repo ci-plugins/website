@@ -1,6 +1,6 @@
 
 ---
-title: "Documentation"
+title: "BKCI Documentation"
 linkTitle: "Documentation"
 weight: 20
 menu:
@@ -8,17 +8,43 @@ menu:
     weight: 20
 ---
 
-{{% pageinfo %}}
-This is a placeholder page that shows you how to use this template site.
-{{% /pageinfo %}}
+a free & open source CI server, bk-ci(BlueKing Continuous Integration) helps you automate your build-test-release workflows, continuous delivery of your product faster, easier, with fewer bugs.
 
+bk-ci removes all the tedious tasks in R&D process and enables you to focus on coding. It is often used for:
 
-This section is where the user documentation for your project lives - all the information your users need to understand and successfully use your project. 
+- Project compilation
+- Static code analysis
+- Running test cases to find bugs in time
+- Deployment and release
 
-For large documentation sets we recommend adding content under the headings in this section, though if some or all of them don’t apply to your project feel free to remove them or add your own. You can see an example of a smaller Docsy documentation site in the [Docsy User Guide](https://docsy.dev/docs/), which lives in the [Docsy theme repo](https://github.com/google/docsy/tree/master/userguide) if you'd like to copy its docs section. 
+bk-ci provides five core services, namely Process, Repository, Ticket, Environment and Store. They can be combined in multiple ways to meet business needs in different scenarios.
 
-Other content such as marketing material, case studies, and community updates should live in the [About](/about/) and [Community](/community/) pages.
+- **Process**: It visualizes current R&D process of the team. One pipeline can handle compilation, testing and deployment.
+- **Repository**: It links current source code hosting service of the enterprise to bk-ci.
+- **Ticket**: It provides the management of various kinds of tickets and certificates for services like Repository and Process.
+- **Environment**: It can host the internal agents of the enterprise on bk-ci.
+- **Store**: It consists of pipeline plugins and pipeline templates. Plugins are used to integrate with various third-party services of the enterprise and templates help to standardize its internal R&D process.
 
-Find out how to use the Docsy theme in the [Docsy User Guide](https://docsy.dev/docs/). You can learn more about how to organize your documentation (and how we organized this site) in [Organizing Your Content](https://docsy.dev/docs/best-practices/organizing-content/).
+## Overview
 
+- [Architecture](docs/overview/architecture.en.md)
+- [Code Directory](docs/overview/code_framework.en.md)
+- [Design](docs/overview/design.en.md)
 
+## Features
+
+- Continuous integration and continuous delivery: Due to the scalability of the framework, bk-ci can not only be used in simple CI scenarios, but also as the continuous delivery center of all the projects of the enterprise.
+- What you see is what you get: bk-ci provides flexible and visualized pipelines for you to orchestrate. Move your fingers and you can describe the R&D process here.
+- Parallel and scalable framework: The flexible framework can be scaled horizontally at will to meet the enterprise’s need for large-scale use.
+- Distributed system: bk-ci can manage multiple agents easily to help you perform cross-platform build, testing and deployment in a faster manner.
+- Pipeline plugins: bk-ci has a complete plugin development system with properties like low barrier to entry and scalability.
+- Pipeline templates: It promotes the standardization of R&D within the enterprise.
+
+## Experience
+
+- [bk-ci in docker](https://hub.docker.com/r/blueking/bk-ci)
+
+## Getting started
+
+- [Download and Compile](docs/overview/source_compile.en.md)
+- [Install and Deploy Within One Minute](docs/overview/installation.en.md)
