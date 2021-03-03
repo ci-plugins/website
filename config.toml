@@ -1,4 +1,4 @@
-baseURL = "https://bkci.net/"
+baseURL = "https://ci-plugins.github.io/website/"
 title = "BKCI"
 publishDir = "docs"
 enableRobotsTXT = true
